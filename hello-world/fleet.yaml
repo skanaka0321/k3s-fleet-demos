@@ -4,6 +4,4 @@ targetCustomizations:
     yaml:
       overlays:
         - green-color
-    clusterSelector:
-      matchLabels:
-        color: green
+    clusterGroup: group-b
