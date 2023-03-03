@@ -1,0 +1,9 @@
+namespace: hello
+targetCustomizations:
+  - name: colorize
+    yaml:
+      overlays:
+        - green-color
+    clusterSelector:
+      matchLabels:
+        color: green
